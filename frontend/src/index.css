@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F7FA;
+    color: #111827;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Dark Container Scrollbar */
+.dark-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark-scroll::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+.dark-scroll::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Light Bento Card */
+.finnova-bento-card {
+  background: #FFFFFF;
+  border-radius: 28px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.finnova-bento-card:hover {
+  box-shadow: 0 10px 32px rgba(15, 23, 42, 0.08);
+  border-color: rgba(94, 92, 230, 0.3);
+}
+
+/* Dark Master-Detail Container */
+.finnova-dark-container {
+  background-color: #16171D;
+  border-radius: 36px;
+  box-shadow: 0 24px 48px -12px rgba(15, 23, 42, 0.25);
+}
+
+/* Active Row Highlight - FINNOVA #INV-1003 style */
+.finnova-row-active {
+  background-color: #5E5CE6 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 10px 25px -5px rgba(94, 92, 230, 0.4) !important;
+}
+
+/* Deep Dive Card in Right Panel */
+.finnova-deepdive-card {
+  background-color: #5B58EB;
+  border-radius: 28px;
+  box-shadow: 0 14px 34px -8px rgba(91, 88, 235, 0.4);
+}
