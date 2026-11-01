@@ -1,4 +1,4 @@
-# Edu Track — Transparent School Assessment Tracking & Public Audit Dashboard
+# EduTrack — Transparent School Assessment Tracking & Public Audit Dashboard
 
 > **MIA 2026 (WIA) Competition Entry**  
 > **Tema Utama:** *Designing Digital Futures — Powering Public Transparency*  
@@ -20,7 +20,7 @@ Edu Track hadir memecahkan kebuntuan ini dengan pendekatan **Public Transparency
 
 ---
 
-## 2. Pemetaan 4 Sub-Tema Lomba MIA 2026 & Inovasi AI
+## 2. Pemetaan Sub-Tema Lomba MIA 2026 & Inovasi AI
 
 | No | Sub-Tema Kompetisi | Implementasi Solusi dalam Edu Track |
 |---|---|---|
